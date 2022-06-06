@@ -1,0 +1,16 @@
+.poster {
+    display: flex;
+    margin: 30px 0;
+    justify-content:center;
+}
+.trend {
+    height: 693px;
+}
+.trend img {
+    height:100%;
+    width: 100%;
+}
+.newArrivals{
+    max-width: 1200px;
+    margin: auto;
+}
