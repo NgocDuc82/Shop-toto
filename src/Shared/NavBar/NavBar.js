@@ -19,7 +19,7 @@ import Link from "@mui/material/Link";
 import "../../Styles/navbar.css";
 function NavBar() {
   return (
-    <div>
+    <div className = "navbar">
       <div className="nav-wrap">
         <div className="nav-logo">
           <img src="https://mcdn.nhanh.vn/store/7136/store_1587022637_735.jpg" />
