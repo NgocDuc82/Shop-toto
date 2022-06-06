@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from "react-dom";
-import Button from "@material-ui/core/Button";
-
+import React from "react";
+// import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
+// import Button from "@mui/material/Button";
+import NavBar from '../../shared/NavBar/NavBar'
+import Header from '../../shared/Header/Header'
+import Footer from '../../shared/Footer/Footer'
 function Home() {
   return (
-    <>
-      <h1>home</h1>
-      <Button variant="contained">Default</Button>
-    </>
+    <div>
+      <div className="Wraper">
+        <Grid container spacing={3}>
+          <Grid item xs={2}>
+            <NavBar />
+          </Grid>
+          <Grid item xs={10}>
+            <Header />
+            <Footer />
+          </Grid>
+        </Grid>
+      </div>
+    </div>
   );
 }
 export default Home;

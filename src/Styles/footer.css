@@ -1,0 +1,143 @@
+.footer {
+    background-color: rgb(114, 39, 39);
+    padding-bottom: 30px;
+}
+.footer__top{
+    padding: 30px 20px ;
+}
+.footer__top-sale-hotline{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.footer__top-online {
+    padding-left: 30px;
+}
+.footet__top-online p{
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.footet__top-online span{
+    font-size: 10px;
+    color: #fff;
+}
+.footer__top-hotline p
+{
+     color:#fff;
+    padding-bottom: 5px;
+     font-size: 14px;
+     letter-spacing: 1.4px;
+}
+.footet__top-online a{
+    color: #EF9608 ;
+    font-size: 16px ;
+}
+.footer__top-right{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__top-hotline a{
+    color: #EF9608 ;
+    font-size: 16px;
+}
+.footer__top-hotline {
+    padding-right: 150px;
+}
+.footer__top-right{
+    display: flex;
+}
+.footer__top-right h3{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.footer__top-right a{
+    color: #fff;
+    font-size: 12px; 
+    letter-spacing: 1.1px;
+    font-weight: 300;
+}
+.footer__top-right li{
+    height: 16px;
+    padding-bottom: 27px;
+}
+.footer__top .footer__top-right-link{
+    color: #EF9608 ;
+    font-size: 16px;
+}
+.footer__top li {
+    margin-top: 5px;
+}
+.footer__top-title{
+    color: #fff;
+    font-weight: normal;
+}
+.footer__top .footer__top-link {
+    color: #fff;
+    /* color: #fff; */
+    font-size: 14px; 
+    letter-spacing: 1.4px;
+    font-weight: 300;
+}
+.footer .footer__bottom{
+    display: flex;
+    justify-content:space-between;
+    margin: 24px 45px;
+}
+.footer__bottom h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer__bottom input {
+    height: 30px;
+    width: 350px;
+    border: none;
+}
+.footer__bottom button {
+    padding: 5px 10px ;
+    height: 30px;
+    background:#000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.footer__bottom-form{
+    background-color: #fff;
+}
+.footer__bottom-feedback p{
+    color: #089eef;
+
+}
+.footer__bottom-feedback {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer__bottom-feedback a{
+    color: #000;
+    background-color: #089eef ;
+    padding: 5px;
+    border-radius: 100%;
+    height: 30px;
+}
+.footer__bottom{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.footer__address{
+    color: #fff;
+    margin: 0 45px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.footer__address .address{
+    padding-top: 5px;
+}

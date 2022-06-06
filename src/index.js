@@ -1,9 +1,9 @@
-import React, { Component,Fragment } from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './Modules/Home/Home'
 import reportWebVitals from './reportWebVitals';
-
+import './Styles/base.css'
 ReactDOM.render(
   <Fragment>
     <Home />

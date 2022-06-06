@@ -1,0 +1,35 @@
+.nav-listPage-item{
+    text-align: center;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 40px 20px 0 20px;
+}
+.nav-logo img{
+    width: 80%;
+}
+.nav-extra , 
+.nav-socail{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.nav-extra .nav-extra-link{
+    padding: 8px;
+    color: #000;
+}
+.nav-listPage-item{font-size: 20px;}
+.nav-listPage-item span:hover{
+    color: red;
+}
+.nav-hotline{
+    display: flex;
+    justify-content: center;
+}
+.nav-socail .nav-socail-link{
+    /* font-size: 22px; */
+    padding:8px;
+    color: #7D7D7D;
+}
